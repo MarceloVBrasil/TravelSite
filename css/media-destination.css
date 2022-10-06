@@ -1,0 +1,17 @@
+@media (max-width: 864px)
+{
+    .destination__title
+    {
+        top: -0.5rem;
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 560px)
+{
+    .destination__title
+    {
+        font-size: 3rem;
+        top: 0.5rem
+    }
+}
