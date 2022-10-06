@@ -1,0 +1,144 @@
+:root
+{
+    --white: #FFFFFF;
+    --nitro-blue: #335576;
+    --orange: #DB7A4E;
+    --beige: #FEFAF5;
+    --base-font: 'Verdana';
+    --base-font-color: black;
+}
+
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--base-font);
+    text-decoration: none;
+}
+
+.hawaii
+{
+    background-image: url("../assets/Images/hawaii.jpg");    
+}
+
+.iceland
+{
+    background-image: url("../assets/Images/iceland.jpg");
+}
+
+.greece
+{
+    background-image: url("../assets/Images/greece.jpg");
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 5rem;
+    background-color: var(--white);
+}
+
+.header__title
+{
+    color: var(--nitro-blue);
+    font-weight: 900;
+}
+
+.header__menu
+{
+    display: none;
+    cursor: pointer;
+}
+
+.header-navbar
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-navbar__link
+{
+    padding: 0.5rem 0rem;
+    cursor: pointer;
+    color: var(--base-font-color);
+    border-bottom: 5px solid transparent;
+}
+
+.active, .header-navbar__link:hover
+{
+    border-bottom: 5px solid var(--orange);
+}
+
+.footer
+{
+   background-color: var(--beige);
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   min-height: 12rem;
+   padding: 0 10rem;
+}
+
+.footer__section
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    column-gap: 2rem;
+}
+
+.footer-section__title
+{
+    color: var(--nitro-blue);
+    font-weight: bold;
+}
+
+.footer-section__subtitle
+{
+    color: var(--orange);
+    font-size: 0.7rem;
+}
+
+.footer-section__subtitle-info
+{
+    color: var(--nitro-blue);
+    margin: 0.5rem 1rem 0 0;
+    word-wrap: break-word;
+}
+
+.footer-section__bottom-container-hours--flex-row,
+.footer-section__bottom-container-social--flex-row
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-section__bottom-container--flex-row > div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-section__bottom-container--flex-column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-section__icon
+{
+    width: 2rem;
+    margin-right: 1.5rem;
+}
+
+.footer-section__facebook-icon
+{
+    width: 1rem;
+    margin-right: 1.5rem;
+}
