@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Site</title>
+    <link rel="icon" type="image/x-icon" href="../assets/Images/hero.png">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/media-global.css">
+    <link rel="stylesheet" href="../css/getStarted.css">
+    <link rel="stylesheet" href="../css/media-getStarted.css">
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__title">Travel Site</h2>
+
+        <nav  class="header-navbar">
+            <a href="../index.html"><p class="header-navbar__link">Home</p></a>
+            <a href="../pages/hawaii.html"><p class="header-navbar__link">Hawaii</p></a>
+            <a href="../pages/iceland.html"><p class="header-navbar__link">Iceland</p></a>
+            <a href="../pages/greece.html"><p class="header-navbar__link">Greece</p></a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <form class="main__form">
+            <section class="main-form__section">
+                <label for="firstName" class="main-form__label">First Name: </label>
+                <input required type="text" placeholder="First Name..." class="main-form__input">
+            </section>
+
+            <section class="main-form__section">
+                <label for="lastName" class="main-form__label">Last Name: </label>
+                <input required type="text" placeholder="Last Name..." class="main-form__input">
+            </section>
+            
+            <section class="main-form__section">
+                <label for="email" class="main-form__label">Email: </label>
+                <input required type="email" placeholder="user@domain.com"  class="main-form__input">
+
+            </section>
+            
+            <section class="main-form__section">
+                <label for="departureDate" class="main-form__label">Departure: </label>
+                <input required type="date"   class="main-form__input">
+            </section>
+
+            <section class="main-form__section">
+                <label for="returnDate" class="main-form__label">Return: </label>
+                <input required type="date"   class="main-form__input">
+            </section>
+            
+            <section class="main-form__section">
+                <Label for="destination" class="main-form__label">Where to:</Label>
+                <div class="main-form__input--radio">
+                    <input required type="radio" name="destination" value="Hawaii"> Hawaii
+                </div>
+                <div class="main-form__input--radio">
+                    <input required type="radio" name="destination" value="Iceland"> Iceland
+                </div>
+                <div class="main-form__input--radio">
+                    <input required type="radio" name="destination" value="Greece"> Greece
+                </div>               
+            </section>
+
+             <a href="mailto:marcelovitalbrasil92@gmail.com" class="align-self--center">
+                <button class="main-form__button">Submit</button>
+             </a>            
+        </form>
+        <img alt="globe" src="../assets/Images/hero.png" class="main__image">
+    </main>
+
+    <footer class="footer">
+        <section class="footer__section">
+            <h2 class="footer-section__title">Contact</h2>
+            <div class="footer-section__bottom-container--flex-column">
+                <p class="footer-section__subtitle">Email</p>
+                <p class="footer-section__subtitle-info">info@travelsite.com</p>
+            </div>
+            
+        </section>
+
+        <section class="footer__section">
+            <h2 class="footer-section__title padding">Hours</h2>
+            <div class="footer-section__bottom-container-hours--flex-row">
+                <div>
+                    <p class="footer-section__subtitle">MONDAY - FRIDAY</p>
+                    <p class="footer-section__subtitle-info">9:00 AM - 5:00 PM</p>
+                </div>
+                <div>
+                    <p class="footer-section__subtitle">SATURDAY</p>
+                    <p class="footer-section__subtitle-info">10:00 AM - 4:00 PM</p>
+                </div>
+                <div>
+                    <p class="footer-section__subtitle">SUNDAY</p>
+                    <p class="footer-section__subtitle-info">CLOSED</p>
+                </div>
+            </div>            
+        </section>
+
+        <section class="footer__section">
+            <h2 class="footer-section__title">Social</h2>
+            <div class="footer-section__bottom-container-social--flex-row">
+                <a href="https://www.instagram.com"><img src="../assets/Icons/icon-instagram.png" alt="instagram" class="footer-section__icon"></a>
+                <a href="https://www.facebook.com"><img src="../assets/Icons/icon-facebook.png" alt="facebook" class="footer-section__facebook-icon"></a>
+                <a href="https://www.twitter.com"><img src="../assets/Icons/icon-twitter.png" alt="twitter" class="footer-section__icon"></a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
