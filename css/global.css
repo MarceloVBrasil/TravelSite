@@ -97,6 +97,21 @@
     font-weight: bold;
 }
 
+.contact-title
+{
+    margin-top: 30px;
+}
+
+.hours-title
+{
+
+}
+
+.social-title
+{
+
+}
+
 .footer-section__subtitle
 {
     color: var(--orange);
@@ -141,4 +156,9 @@
 {
     width: 1rem;
     margin-right: 1.5rem;
+}
+
+.my-website
+{
+    cursor: pointer;
 }

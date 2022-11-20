@@ -16,7 +16,7 @@
 @media (max-width: 760px) {
     .footer-section__title
     {
-        font-size: 1.2em;;
+        font-size: 1.2em;
     }
 
     .footer-section__bottom-container-hours--flex-row
@@ -50,6 +50,11 @@
     {
         padding-top: 5rem;
     }
+
+    .social-title
+    {
+        margin-top: -10px;
+    }
 }
 
 @media (max-width: 500px)
@@ -59,13 +64,19 @@
         font-size: 0.80rem;
         margin-right: 5px;
     }
+
+    .social-title
+    {
+        margin: 1px;
+    }
+
+    .hours-title
+    {
+        margin-top: 3px;
+    }
 }
 
 /** HEADER */
-
-@media (max-width: 770px) {
-
-}
 
 @media (max-width: 580px) {
     .header
@@ -77,7 +88,7 @@
 @media (max-width: 500px) {
     .header
     {
-        padding: 0.8rem 1rem;;
+        padding: 0.8rem 1rem;
     }
 }
 
